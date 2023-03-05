@@ -48,3 +48,6 @@
       </table>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+---
+### 후기
+        문자열을 나누고 정수형으로 변환한 뒤 값을 하나씩 비교하며 최대값과 최소값을 구했당
