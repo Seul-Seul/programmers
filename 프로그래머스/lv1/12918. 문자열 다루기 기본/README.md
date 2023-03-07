@@ -55,3 +55,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+---
+        매우 쉽다 생각하며 풀었는 디 
+        try catch문 이용해서 푼 사람것도 봤다 저런 방법도 있넹
