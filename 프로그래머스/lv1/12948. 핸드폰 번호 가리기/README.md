@@ -45,12 +45,11 @@
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
        
-        변수를 여러개 만들지 않아도 된다는 점에서 StringBuilder를 선호한다. 
         setCharAt메서드를 이용해서 index(0 ~ 총길이-4)까지 *로 바꿔줬다
         
         이렇게 푼 이유 : 
-        평소에 문자열을 자르고 붙일 때 substring과 replace는 매번 새로운 변수를 만들어줘야해서 불가피한 경우가 아니면 선호하지 않음
+        평소에 문자열을 여러번 자르고 붙일 때(이 문제는 그럴 필요 없지만 ㅎ) 매번 새로운 변수를 만들어줘야한다는 점에서 substring과 replace는 선호하지 않음
         문자열을 char배열로 만든 후 특정 index에 접근하는 방법도 있지만 다른 문제에서 여러번 사용했어서 
-        평소 타입을 변환할 때만 사용했던 StringBuilder 사용함 , 딱 맞는 메서드 찾음
+        평소 타입을 변환할 때만 사용했던 StringBuilder 사용함
         StringBuilder 짱!
         
