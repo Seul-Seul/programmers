@@ -44,3 +44,6 @@
       </table>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+        
+        변수를 여러개 만들지 않아도 된다는 점에서 StringBuilder를 선호한다. 
+        setCharAt메서드를 이용해서 index(0 ~ 총길이-4)까지 *로 바꿔줬다
