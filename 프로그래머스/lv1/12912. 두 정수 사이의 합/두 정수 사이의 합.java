@@ -1,22 +1,9 @@
 class Solution {
-    public long solution(int a, int b) {
-        long answer = 0;
-        long max , min;
-        
-        if(a == b)  return a;
-        else if( a < b){
-            max = b;
-            min = a;
-        }
-        else{
-            max = a;
-            min = b;
-        }
-        
-        while(min <= max){
-            answer += min;
-            min++;
-        }
-        return answer;
-    }
+  public long solution(int a, int b) {
+      long answer = 0;
+      for (int i = ((a < b) ? a : b); i <= ((a < b) ? b : a); i++) 
+          answer += i;
+
+      return answer;
+  }
 }
